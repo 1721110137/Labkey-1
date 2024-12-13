@@ -175,6 +175,7 @@ document.getElementById("confirmResolveBtn").addEventListener("click", async () 
             return;
         }
 
+        
         const incidencia = incidencias[currentIncidencia];
         const docRef = doc(db, "incidencias", incidencia.id);
 
